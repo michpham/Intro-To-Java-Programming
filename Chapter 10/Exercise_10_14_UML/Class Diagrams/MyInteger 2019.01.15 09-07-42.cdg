@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="MyInteger">
+  <ClassDiagramComponents>
+    <Class name="MyInteger" package="exercise_10_03" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="value" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="package">
+          <Argument type="int" name="value"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getValue" returnType="int" visibility="public"/>
+        <Method name="isEven" returnType="boolean" visibility="public"/>
+        <Method name="isOdd" returnType="boolean" visibility="public"/>
+        <Method name="isPrime" returnType="boolean" visibility="public"/>
+        <Method name="isEven" returnType="boolean" visibility="public" isStatic="true">
+          <Argument type="int" name="num"/>
+        </Method>
+        <Method name="isOdd" returnType="boolean" visibility="public" isStatic="true">
+          <Argument type="int" name="num"/>
+        </Method>
+        <Method name="isPrime" returnType="boolean" visibility="public" isStatic="true">
+          <Argument type="int" name="num"/>
+        </Method>
+        <Method name="equals" returnType="boolean" visibility="public">
+          <Argument type="int" name="num"/>
+        </Method>
+        <Method name="equals" returnType="boolean" visibility="public">
+          <Argument type="MyInteger" name="myInt"/>
+        </Method>
+        <Method name="parseInt" returnType="int" visibility="public" isStatic="true">
+          <Argument type="char[]" name="values"/>
+        </Method>
+        <Method name="parseInt" returnType="int" visibility="public" isStatic="true">
+          <Argument type="String" name="line"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <UseRelation source="exercise_10_03.MyInteger" target="exercise_10_03.MyInteger" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

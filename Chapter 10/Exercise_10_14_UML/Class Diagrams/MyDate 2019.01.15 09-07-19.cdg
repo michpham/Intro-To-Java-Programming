@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="MyDate">
+  <ClassDiagramComponents>
+    <Class name="MyDate" package="exercise_10_14" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="year" type="int" visibility="private"/>
+        <Field name="month" type="int" visibility="private"/>
+        <Field name="day" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="package"/>
+        <Constructor visibility="package">
+          <Argument type="long" name="elapsedTime"/>
+        </Constructor>
+        <Constructor visibility="package">
+          <Argument type="int" name="year"/>
+          <Argument type="int" name="month"/>
+          <Argument type="int" name="day"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getYear" returnType="int" visibility="public"/>
+        <Method name="getMonth" returnType="String" visibility="public"/>
+        <Method name="getDay" returnType="String" visibility="public"/>
+        <Method name="setDate" returnType="void" visibility="public">
+          <Argument type="long" name="elapsedTime"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
